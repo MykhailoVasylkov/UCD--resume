@@ -10,8 +10,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-    <script src="https://unpkg.com/@googlemaps/markerclusterer/dist/index.min.js"></script>
-    <script  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgjexYKLqZjQqqwLFMuDe-DdCrur5uyds"></script>
 </head>
 
 <body>
@@ -199,8 +197,9 @@
         </div>
 
     </footer>
-    
-    <script async defer type="module" src="assets/js/maps.js"></script>
+    <script src="https://unpkg.com/@googlemaps/markerclusterer/dist/index.min.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgjexYKLqZjQqqwLFMuDe-DdCrur5uyds&callback=initMap"></script>
+    <script src="assets/js/maps.js"></script>
 </body>
 
 </html>
